@@ -197,7 +197,7 @@ h3 {
 }
 
 .contact-content {
-    background-color: #2a223a;
+    background-color: #3f3456;
     text-align: center;
     padding: 50px;
     border-radius: 50px;
@@ -211,7 +211,7 @@ form {
 
 input {
     padding: 18px 25px;
-    background-color: #3f3456;
+    background-color: #2a223a;
     border: 0;
     border-radius: 25px;
     outline: none;
@@ -242,11 +242,12 @@ input {
 
 .link ul {
     display: flex;
+    color: #ffffff;
 }
 
 .link ul li > a {
     font-size: 17px;
-    color: #ffffff;
+    color: #ff5A2c;
     margin-right: 20px;
 }
 
@@ -274,7 +275,7 @@ input {
     }
 
     .menu .navbar ul li a:hover {
-        color: #181726;
+        color: #ffffff;
     }
 
     .menu .navbar ul li{
@@ -342,10 +343,12 @@ input {
     .footer {
         flex-direction: column;
         text-align: center;
+        
 
     }
 
     .link ul {
         margin-top: 20px;
+        color: #ffffff;
     }
 }
